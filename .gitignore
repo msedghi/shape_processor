@@ -1,0 +1,36 @@
+# Ignore build directories
+/build_ms/
+/cmake-build-debug/
+
+# Ignore CMake files and directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.make
+*.cmake
+
+# Ignore object files and libraries
+*.o
+*.a
+*.so
+*.dylib
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Miscellaneous files
+.DS_Store      # macOS folder metadata
+Thumbs.db      # Windows image file cache
+
+processor
